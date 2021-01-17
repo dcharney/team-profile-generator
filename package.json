@@ -1,0 +1,26 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "jest": "^26.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcharney/team-profile-generator.git"
+  },
+  "author": "dcharney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dcharney/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/dcharney/team-profile-generator#readme"
+}
