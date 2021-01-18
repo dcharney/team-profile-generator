@@ -1,5 +1,5 @@
 
-const userPrompts = {
+module.exports = {
     manager: [
         {
             type:'text',
@@ -165,5 +165,3 @@ const userPrompts = {
         }
     ]
 };
-
-module.exports = userPrompts;
