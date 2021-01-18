@@ -26,7 +26,7 @@ from your professional team profile!
             .then(answers => {
                 this.employees.push(new Manager(answers.name, answers.id, answers.email, answers.officeNo));
 
-                this.addEmployee();
+                this.checkIfDone();
             })
     };
 
@@ -69,7 +69,7 @@ from your professional team profile!
     }
 
     listEmployees() {
-        console.table(this.employees);
+        console.log(this.employees);
 
         console.log(`Generating html...`);
     }
