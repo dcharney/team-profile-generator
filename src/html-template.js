@@ -67,12 +67,8 @@ class HTMLData {
 
 const temp = new HTMLData(sampleData);
 
-//console.log(temp);
-
 temp.initializeHTMLBuilder();
 
-
-
-console.log(temp.htmlData);
-
 writeFile(temp.htmlData);
+
+module.exports = HTMLData;

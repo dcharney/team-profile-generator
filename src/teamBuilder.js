@@ -6,6 +6,7 @@ const Intern = require('../lib/Intern');
 const userPrompts = require('./userPrompts');
 const buildFileContent = require('./html-template');
 const writeFile = require('./generate-html');
+const HTMLData = require('./html-template');
 
 
 class teamBuilder {
@@ -72,10 +73,12 @@ from your professional team profile!
 
     generateHTML() {
         console.log('Generating your custom team page...')
-        console.log(this.employees);
+        //console.log(this.employees);
 
-        //let fileContent = buildFileContent(this.employees);
-        //writeFile(fileContent);
+        const fileData = new HTMLData(this.employees);
+        fileData.initializeHTMLBuilder();
+
+        writeFile(fileData.htmlData);
     }
 
 }
