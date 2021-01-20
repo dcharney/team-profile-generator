@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const writeFile = fileContent => {
+module.exports = fileContent => {
     return new Promise((resolve, reject) => {
         fs.writeFile('./dist/index.html', fileContent, err => {
           if (err) {

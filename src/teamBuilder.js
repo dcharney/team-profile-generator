@@ -4,10 +4,12 @@ const Manager = require('../lib/Manager');
 const Engineer = require('../lib/Engineer');
 const Intern = require('../lib/Intern');
 const userPrompts = require('./userPrompts');
+const buildFileContent = require('./html-template');
+const writeFile = require('./generate-html');
+
 
 class teamBuilder {
     constructor() {
-        this.index = 0;
         this.employees = [];
     }
 
@@ -64,14 +66,16 @@ from your professional team profile!
                 message: 'Would you like to add another employee?'
             })
             .then(data => {
-                if (data.addEmployee) {this.addEmployee()} else {this.listEmployees()};
+                if (data.addEmployee) {this.addEmployee()} else {this.generateHTML()};
             });
     }
 
-    listEmployees() {
+    generateHTML() {
+        console.log('Generating your custom team page...')
         console.log(this.employees);
 
-        console.log(`Generating html...`);
+        //let fileContent = buildFileContent(this.employees);
+        //writeFile(fileContent);
     }
 
 }

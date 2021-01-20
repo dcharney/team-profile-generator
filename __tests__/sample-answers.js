@@ -1,27 +1,11 @@
+const Manager = require('../lib/Manager');
+const Engineer = require('../lib/Engineer');
+const Intern = require('../lib/Intern');
 
-module.exports = {
-    Manager: {
-        name: 'Phil',
-        id: '001',
-        email: 'phil@company.com',
-        officeNo: '007'
-    },
-    Engineer: {
-        name: 'Delaney',
-        id: '102',
-        email: 'delaney@company.com',
-        github: 'dcharney'
-    },
-    Intern: {
-        name: 'Mike',
-        id: '304',
-        email: 'mike@harvard.eu',
-        school: 'Harvard'
-    },
-    Engineer: {
-        name: 'Steve',
-        id: '103',
-        email: 'steve@company.com',
-        github: 'sjcharney'
-    }
-};
+module.exports = [
+    new Manager('Phil','001','phil@company.com','007'),
+    new Engineer('Delaney','102','delaney@company.com','dcharney'),
+    new Intern('Mike','304','mike@harvard.eu','Harvard'),
+    new Engineer('Steve','103','steve@company.com','sjcharney'),
+    new Engineer('Frank','103','frank@company.com','frankieFrankieFrankFrank')
+];
