@@ -62,6 +62,11 @@ class HTMLData {
 
 }
 
+/* 
+const Manager = require('../lib/Manager');
+const Engineer = require('../lib/Engineer');
+const Intern = require('../lib/Intern');
+
 sampleData = [
     new Manager('Phil','001','phil@company.com','007'),
     new Engineer('Delaney','102','delaney@company.com','dcharney'),
@@ -74,6 +79,6 @@ const temp = new HTMLData(sampleData);
 
 temp.initializeHTMLBuilder();
 
-writeFile(temp.htmlData);
+writeFile(temp.htmlData); */
 
 module.exports = HTMLData;

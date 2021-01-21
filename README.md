@@ -5,12 +5,16 @@
 Use this tool to quickly generate a basic webpage containing short summaries for each team member.
 
 * [Installation](#installation)
+* [Walkthrough](#walkthrough)
 * [Usage](#usage)
 * [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
 
+## Walkthrough Video
+
+CLick [here](https://drive.google.com/file/d/166PnpPopYnDdouTLVj9Ol7I4ZllWXAjD/preview) to watch a video walkthrough on how to test and use this application.
 
 ## Installation
 
@@ -37,4 +41,4 @@ If you would like to contribute to this project, please follow the rules of the 
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact me directly at testemail@gmail.com. You can find more of my work at [dcharney](https://github.com/dcharney/).
+If you have any questions about the repo, open an issue or contact me directly at delaneycharney@gmail.com. You can find more of my work at [dcharney](https://github.com/dcharney/).

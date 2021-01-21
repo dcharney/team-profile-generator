@@ -79,6 +79,8 @@ from your professional team profile!
         fileData.initializeHTMLBuilder();
 
         writeFile(fileData.htmlData);
+
+        console.log('Your custom team page can now be found at /dist/index.html');
     }
 
 }
